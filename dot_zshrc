@@ -41,5 +41,11 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
 
+# zoxide
+eval "$(zoxide init zsh --cmd cd)"
+
+# fzf
+source <(fzf --zsh)
+
 # starship
 eval "$(starship init zsh)"

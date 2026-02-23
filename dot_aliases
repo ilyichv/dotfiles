@@ -3,5 +3,8 @@ alias k="kubectl"
 alias kcuc="kubectl config use-context"  
 alias kpf="kubectl port-forward"
 
+# zoxide
+alias zi='__zoxide_zi'
+
 ### check-i18n
 alias check-i18n="rg -n --ignore-file=.gitignore -g '*.{js,jsx,ts,tsx}' --color=always '>\s*[A-Za-z0-9][^<>{}]*\s*<' | grep -v -E '=>|<=|>=|interface|extends|Promise|ComponentProps|\w+:\s*\(|\(\w+:\s*\w+.*\)|\w+<\w+>'"  

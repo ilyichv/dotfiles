@@ -1,0 +1,9 @@
+{
+  "place": "none",
+  "title": "Claude worktree",
+  "overlay": { "kind": "dialog", "width": 460, "height": 280 },
+  "cloned_from": {
+    "name": "worktree",
+    "version": "0.1.9"
+  }
+}
